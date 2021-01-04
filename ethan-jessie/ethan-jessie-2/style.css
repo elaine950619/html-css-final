@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  overflow: hidden;
+}
+
+.navbar{
+  display: flex;
+  position: absolute;
+  width: 100vw;
+  height: 10vh;
+  background-color: white;
+  padding: 0px, 10px;
+}
+
+.navbar img{
+  margin: 5px;
+  height: 80%;
+  display: inline-block;
+}
+
+.navbar-right{
+  font-size: 25px;
+  margin-left: auto; 
+}
+
+.navbar-left{
+  display: flex;
+  font-size: 35px;
+  font-weight: bold;
+}
+.logos{
+  display: inline;
+  text-decoration: none;
+  color: #1B7092;
+  padding-top: 10px;
+}
+
+.hello{
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 20px;
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+}
+
+.sidenav{
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  height: 90vh;
+  width: 20vw;
+  position: absolute;
+  border-top: 2px solid #68aecc;
+  border-right: 2px solid#68aecc;
+  overflow-x: hidden;
+  padding-top: 20px;
+  transform: translateY(10vh);
+  background-color: white;
+}
+
+.sidenav > a{
+  color: #1B7092;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 12px 12px 12px 20px;
+  text-decoration: none;
+}
+
+.signout{justify-content: flex-end;}
+
+.signout > img{width: 20px;}
+
+body{
+  display: flex;
+  background-color: #A9D1E2;
+}
+
+h1{
+  color: #ffffff;
+  text-align: center;
+  margin: 32px;
+  font-size: 2.6em;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  height: 90vh;
+  margin-top: 10vh;
+  margin-left: 20vw;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: 11% 26% 26% 26% 11%;
+  grid-template-columns: 20% 20% 20% 20% 20%; 
+  grid-template-areas: 
+  'item1 item2 item3 item4 item5'
+  'item6 item7 item8 item9 item10'
+  'item11 item12 item13 item14 item15'
+  'item16 item17 item18 item19 item20'
+  'item21 item22 item23 item24 item25';
+}
+
+.item1{grid-area: item1;}
+.item2{grid-area: item2;}
+.item3{grid-area: item3;}
+.item4{grid-area: item4;}
+.item5{grid-area: item5;}
+
+.grid-container > div{
+  margin-right: 20px;
+}
+
+.header{
+  background-color: #1B7092;
+  color: white;
+  text-align: center;
+  font-size: 31px;
+  font-weight: bold;
+  padding: 10px 65px 140px 66px;
+}
+
+.item6, .item7, .item8, .item9, .item10, .item11, .item12, .item13, .item14, .item15, .item16, .item17, .item18, .item19, .item20, .item21, .item22, .item23, .item24, .item25{
+  background-color: white;
+  text-align: center;
+  color:#1B7092;
+  border-bottom: 2px solid #1B7092;
+}
+
+.item6{
+  grid-area: item6;}
+
+.item7{
+  grid-area: item7;}
+
+.item8{grid-area: item8;}
+.item9{grid-area: item9;}
+.item10{grid-area: item10;}
+.item11{grid-area: item11;}
+.item12{grid-area: item12;}
+.item13{grid-area: item13;}
+.item14{grid-area: item14;}
+.item15{grid-area: item15;}
+
+.smallwords{
+  padding-top: 10px;
+  font-size: 1.1rem;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 1.3rem;
+  padding-top: 20px;
+}

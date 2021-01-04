@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    overflow: hidden;
+}
+
+.sidenav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 16vw;
+    position: fixed;
+    background-color: #091868;
+    overflow-x: hidden;
+    padding-top: 20px;
+    z-index: 100;
+}
+
+.sidenav > a{
+    color: #FFFFFF;
+    text-decoration: underline grey;
+    margin: 25px;
+}
+
+.sidenav > img{
+    width: 70%;
+    margin: 20px 0px;
+}
+
+.navbar{
+    display: flex;
+    width: 100vw;
+    height: 15vh;
+    position: relative;
+    background-color: #FFC83B;
+    font-weight: bold;
+    font-size: 27px;
+    align-items: center;
+}
+
+.navbar-right{
+    margin-left: auto; 
+    margin-right: 70px;
+    padding: 10px;
+}
+
+.navbar-left{
+    display: flex;
+    margin-left: 20vw;
+}
+
+.navbar-left > img{
+    width: 27px;
+    margin-left: 10px;
+}
+
+body{
+    background-color: #054CBF;
+    color: white;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(200px);
+}
+
+.names{
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 40px;
+    margin: 10px 25px 10px 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    grid-template-columns: 1fr; 
+    grid-template-areas: 
+    "item1"
+    "item2";
+
+    margin-left: 40vw;
+    margin-right: 10vw;
+    transform: translateY(-400px);
+}
+
+.item1, .item2{
+    border: 2px solid  #091868;
+}
+
+.item1{
+    display: flex; 
+    align-items: center;
+}
+
+.item2{
+    border-top: none;
+}
+
+.align{
+    display: flex;
+    align-items: center;
+}
+
+.align-right{
+    margin-left: auto;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+}
+
+.bottom > img{
+    width: 30px;
+}
+
+.chatbox {
+    border-radius: 50px;
+    background-color: #091868; 
+    padding: 10px 200px 10px 20px;
+    color: #054CBF;
+}
+
+.align > p{
+    padding: 9px 11px 9px 11px;
+    border-radius: 30px;
+    background-color: #091868;
+}
+
+.align > img {
+    background-color: white;
+    border-radius: 50%;
+}
+
+.arrow{
+    background-color: #091868;
+    width: 2.5vw;
+    height: 20vh;
+    margin-left: auto;
+    transform: translateY(-600px)
+}
+
+.arrow > img{
+    margin: 50px 5px;
+    width: 1.5vw;
+}
