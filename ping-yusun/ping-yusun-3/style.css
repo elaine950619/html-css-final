@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.line{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: #C7C7C7;
+    width: 45px;
+    height: 5px;
+    margin: 10px;
+    transform: translate(84vw, 10px);
+}
+
+.title{
+    font-size: 30px;
+    margin-left: 6vw; 
+    margin-top: -80px;
+}
+
+.subtitle{
+    font-size: 20px; 
+    margin-left: 6vw;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    margin: 0px 0px 0px 90vw;
+    transform: translateY(-60px);
+}
+
+.text{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.note{
+    border: 3px solid black;
+    border-radius: 7px;
+    width: 60px;
+    text-align: center;
+    border-bottom: none;
+    font-size: 17px;
+    padding: 2px;
+    transform: rotate(90deg) translate(-30px, 20px);
+}
+
+.content{
+    display: flex;
+}
+
+.battery{width: 20vw;}
+
+.batterytop{
+    height: 20px;
+    width: 180px;
+    border: 3px solid black;
+    border-radius: 25px;
+    margin-left: 85px;
+}
+
+.batterybody{ 
+    border-radius: 15px;
+    border: 3px solid black;
+}
+
+.color{
+    background-color: #73E0CE;
+}
+
+.comments{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 30vw; 
+}
+
+.guide{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+}

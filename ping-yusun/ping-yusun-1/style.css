@@ -81,6 +81,7 @@
 }
 
 .yellowbg{
+    position: relative;
     height: 20px; 
     width: 70px;
     background-color: #f6b400;
@@ -94,6 +95,7 @@
 }
 
 .redbg{
+    position: relative;
     height: 20px; 
     width: 60px;
     background-color: #ff6e6c;

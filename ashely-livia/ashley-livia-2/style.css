@@ -67,7 +67,7 @@ body{
 .contacts{
     display: flex;
     flex-direction: column;
-    transform: translateX(200px);
+    transform: translateX(20vw);
 }
 
 .names{
