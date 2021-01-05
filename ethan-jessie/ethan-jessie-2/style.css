@@ -69,7 +69,9 @@
   text-decoration: none;
 }
 
-.signout{justify-content: flex-end;}
+.signout{
+  transform: translate(-10px, 100px);
+}
 
 .signout > img{width: 20px;}
 

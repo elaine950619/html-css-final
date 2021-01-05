@@ -49,7 +49,10 @@
 .navbar-left{
     display: flex;
     margin-left: 20vw;
+    color: black;
 }
+
+/* .navbar-left, div{margin-top: 10px;} */
 
 .navbar-left > img{
     width: 27px;
@@ -109,7 +112,8 @@ img {
 }
 
 .align-right{
-    margin-left: auto;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .bottom{
@@ -117,9 +121,7 @@ img {
     align-items: center;
 }
 
-.bottom > img{
-    width: 30px;
-}
+.bottom > img{width: 30px;}
 
 .chatbox {
     border-radius: 50px;
@@ -139,12 +141,14 @@ img {
     border-radius: 50%;
 }
 
+.margin{ margin-left: 90px;}
+
 .arrow{
     background-color: #091868;
     width: 2.5vw;
     height: 20vh;
     margin-left: auto;
-    transform: translateY(-600px)
+    transform: translateY(-700px)
 }
 
 .arrow > img{

@@ -85,18 +85,20 @@
     width: 70px;
     background-color: #f6b400;
     border-radius: 20px;
-    transform: translate(10px, -15px);
+    transform: translate(10px, -25px);
     z-index: -1;
 }
 
-.note{margin: 10px 0px;}
+.note{
+    margin: 10px 0px;
+}
 
 .redbg{
     height: 20px; 
     width: 60px;
     background-color: #ff6e6c;
     border-radius: 20px;
-    transform: translate(10px, -15px);
+    transform: translate(10px, -25px);
     z-index: -1;
 }
 
